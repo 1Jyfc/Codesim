@@ -1,10 +1,20 @@
+# 项目介绍
+
+Codesim是南京大学2020年《软件工程研究导引》课程的课程PA作业，该工具可以分析两个cpp源码，并评判它们的相似度，用于确定这两份代码是否涉嫌代码抄袭。
+
+代码核心算法基于[MOSS](https://theory.stanford.edu/~aiken/moss/)，并基于[clang](https://clang.llvm.org/)提供的代码分析功能对C++代码进行分析操作。
+
+
+
 # 依赖获取
 
-需要使用g++和clang，故在命令行运行：
+代码运行需要使用g++和clang，故在命令行运行：
 
 `sudo apt-get install g++ clang libclang-10-dev`
 
 即完成配置。
+
+
 
 # 编译
 
